@@ -1,5 +1,6 @@
+<div class="WelcomeSite">
 <h1>Welcome to the World of Bob Ross</h1>
-
+</div>
 
 
   <head>
@@ -22,33 +23,35 @@
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="navbar1">
-      <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item" class="nav-link">
-              <%= link_to "Draw", draw_path %>
-            </li>
-          </ul>
-        </div>
-      </div>
+    <div class="page-content">
+  <!-- Structure goes here -->
+  <header>
+    <nav>
+      <div class="navedit">
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="#section1" class="nav-link is-active">Catalogue</a>
+        </li>
+         <li class="nav-item">
+                        <%= link_to "Canvas", draw_path %>
+
+        </li>
+        <li class="nav-item">
+          <a href="#section3" class="nav-link">Your Paintings</a>
+        </li>
+      </ul>
+       </div>
     </nav>
+  </header>
+ 
+</div>
 
     <!-- Page Content -->
     <div class="container">
 
 
       <!-- Page Heading -->
-     <h1 class="my-4" id="WelcomeBob">Welcome to Bob Ross</h1>
+     <h1 class="my-4" id="WelcomeBob">Catalogue</h1>
       
       <div class="row">
         <div class="col-lg-6 portfolio-item">
@@ -117,7 +120,7 @@
             </div>
           </div>
         </div>
-      </div>h
+      </div>
       <!-- /.row -->
 
       <!-- Pagination -->
@@ -151,7 +154,7 @@
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2018</p>
+        <p class="m-0 text-center text-white">Copyright &copy; Drew, Andrew, Keshav, Rishab Production</p>
       </div>
       <!-- /.container -->
     </footer>
